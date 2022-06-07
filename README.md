@@ -1,14 +1,17 @@
+# vehicle-and-traffic-sign-detection-depended-on-yolov5-and-cascade-classifier
+I use both yolov5 and cascade classifier to detect vehicle and traffic sign based on bdd100k dataset. The reference time of yolov5 is about 17ms much better than cascade classifier., which is enough for real-time detection.
+
 ### cascade classifier
-cascade classifier file to detect cars, pedestrian, stoplights, two wheelers.
+Cascade classifier file to detect cars, pedestrian, stoplights, two wheelers.
 
 ### data 
 .yaml file for datasets path
 
 ### datasets
-the bdd100k datain yolo's format
+The bdd100k datain yolo's format
 
 ### test_video
-some videos for testing
+Some videos for testing
 
 ### weights
 yolov5n.engine for inferencing on tensorrt
