@@ -8,10 +8,10 @@ Cascade classifier file to detect cars, pedestrian, stoplights, two wheelers.
 .yaml file for datasets path
 
 ### datasets
-The bdd100k datain yolo's format
+The bdd100k datain yolo's format. The structure of datasets is same with https://github.com/ultralytics/yolov5.
 
 ### test_video
-Some videos for testing
+Some videos for testing. The file is to big.
 
 ### weights
 yolov5n.engine for inferencing on tensorrt
